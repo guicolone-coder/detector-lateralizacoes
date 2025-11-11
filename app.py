@@ -1,7 +1,7 @@
 import streamlit as st 
 import pandas as pd 
 from datetime import datetime, timedelta
-import plotly.express as px 
+#import plotly.express as px 
 
 # ===============================
 # 🎨 Estilo customizado
@@ -1509,3 +1509,4 @@ if uploaded_file:
                         st.error("*Viés Geral:* Vendedor")
                     else:
                         st.info("*Viés Geral:* Neutro")
+
